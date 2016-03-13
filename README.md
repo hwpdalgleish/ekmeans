@@ -7,6 +7,8 @@ Outputs are cluster assignments for each data-point and the centroid co-ordinate
 
 Random centroids are seeded in the data and data points are assigned to these centroids on the basis of their euclidian distance. Assignments and centroid positions are iteratively updated. If equal cardinality is specified, whenever a cluster becomes too large points in that cluster that are closest to any other centroid are removed and reassigned to their next closest centroid and all clusters/centroids updated.
 
+If equal cardinality is not achieved in the number of iterations specified, the algorithm is re-initialised from different starting conditions and run again until equal cardinality is achieved.
+
 # ekmeans GUI
 GUI to view, evaluate and optimise cluster assignments. Can plot in up to 3 dimensions. GUI stores up to 10 cluster splits in memory and user can cycle through/replace clusters with GUI buttons.
 
