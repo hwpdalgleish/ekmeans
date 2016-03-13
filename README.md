@@ -22,6 +22,8 @@ Input can be provided as a workspace variable or not provided (select in file-se
 
 An example of each of these data-types in 2D/3D is provided in this repository.
 
+E.g. to cluster 120 2D data points from .csv file:
+
 ```matlab
 %% NB USERPATH below is the path to your ekmeans repository
 yx = load('USERPATH/ekmeans/Test_120points_2D.csv')
