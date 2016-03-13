@@ -20,5 +20,7 @@ Input can be provided as workspace variables or selected in file-selection GUI.
 
 Input can be provided as a workspace variable or not provided (select in file-section GUI).
 
+An example of each of these data-types in 2D/3D is provided in this repository.
+
 # Plot clusters
 Scatterplots 2D/3D clusters, connected by lines to their respective centroids and applies an arbitrary colourcode to aid visualisation.
